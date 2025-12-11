@@ -74,6 +74,6 @@
 ## 5. Assumptions
 
 **Q6. Assumptions made:**
-1.  [cite_start]**Single User Environment:** As per instructions[cite: 39], no login system is implemented. The UI hardcodes a display user ("Omprakash Verma") for visual completeness.
+1. **Single User Environment:** As per instructions, no login system is implemented. 
 2.  **File Size:** Assumed a reasonable limit (e.g., 10MB) for performance, though S3 supports much larger files.
 3.  **Network:** Assumed the host machine has internet access to reach Neon DB and AWS S3.
