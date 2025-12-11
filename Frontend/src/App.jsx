@@ -15,7 +15,7 @@ function App() {
   const [activeTab, setActiveTab] = useState('dashboard')
 
 
-  const API_BASE = 'http://localhost:8000'
+  const API_BASE = 'https://ini8labs-assignment-q829.onrender.com'
 
   useEffect(() => {
     fetchDocuments()
