@@ -24,7 +24,9 @@
 
 ## 2. Architecture Overview
 
-**Flow:** `[React Client] <--> [FastAPI Proxy] <--> [PostgreSQL] & [AWS S3]`
+**Flow:**
+
+![Architectural Overview](image.png)
 
 1.  **Frontend:** Handles user interactions (Drag & Drop, Search). It never talks to the Database or S3 directly.
 2.  **Backend (The Proxy):** Acts as the secure gatekeeper.
